@@ -97,6 +97,7 @@ debug.stagefright.omx_default_rank=0
 debug.sf.enable_hwc_vds=1
 debug.sf.hw=1
 persist.hwc.mdpcomp.enable=true
+ro.config.avoid_gfx_accel=true
 ro.hardware.egl=adreno
 ro.hardware.vulkan=sdm660
 debug.renderengine.backend=skiaglthreaded
