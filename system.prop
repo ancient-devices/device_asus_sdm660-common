@@ -46,6 +46,9 @@ ro.hwui.text_small_cache_height=1024
 ro.hwui.text_large_cache_width=2048
 ro.hwui.text_large_cache_height=2048
 
+# IORap app launch prefetching using Perfetto traces and madvise
+iorapd.readahead.enable=true
+
 # Media
 debug.media.transcoding.codec_max_operating_rate_720P=240
 debug.media.transcoding.codec_max_operating_rate_1080P=120
