@@ -28,8 +28,8 @@ vendor.display.disable_skip_validate=1
 persist.vendor.overlay.izat.optin=rro
 
 # Graphics
-debug.sf.latch_unsignaled=0
 debug.sf.disable_backpressure=1
+debug.sf.latch_unsignaled=0
 persist.demo.hdmirotationlock=false
 sdm.debug.disable_skip_validate=1
 
@@ -71,6 +71,9 @@ persist.backup.ntpServer="0.pool.ntp.org"
 # Pre-Rendering
 ro.vendor.perf.scroll_opt=true
 
+# property to enable VDS WFD solution
+persist.hwc.enable_vds=1
+
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
 
@@ -81,6 +84,9 @@ persist.sys.fflag.override.settings_network_and_internet_v2=true
 ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
 persist.sys.fflag.override.settings_provider_model=false
+
+# Storage.xml moment
+persist.sys.binary_xml=false
 
 # Tweak the memory management of the device, enable more background apps.. etc..
 ro.config.fha_enable=true  
@@ -93,14 +99,8 @@ ro.config.dha_th_rate=2.3
 ro.config.sdha_apps_bg_max=64  
 ro.config.sdha_apps_bg_min=8
 
-# Storage.xml moment
-persist.sys.binary_xml=false
-
 # Time
 persist.timed.enable=true
-
-# property to enable VDS WFD solution
-persist.hwc.enable_vds=1
 
 # WiFi Display
 persist.debug.wfd.enable=1
